@@ -1,3 +1,6 @@
+/* Author: Caitlyn Nelson
+   Full Stack Web Dev 408 - Shane Panter- Fall 2024 */
+
 .header{
   background-color: green;
   width: 100%;
@@ -5,6 +8,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 0.5%;
+  flex-wrap: wrap;
 }
 body {
   background-color: gray;
@@ -15,53 +19,57 @@ body {
 .header1{
   font-family: papyrus;
   padding: 10px;
-  float: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 30%;
+  text-shadow: 1px 1px 2px black;
 }
 
 .image{
   height: 50px;
   width: 50px;
   float: right;
-  
+  align-self: auto;
+  margin-left: 25%;
 }
 
-/* .nav{
+.nav{
   background-color: rgb(17, 191, 17);
-  margin-top: 20px;
   margin-left:auto;
   margin-right:auto;
-  border: 1px solid rgb(17, 191, 17);
+  margin-bottom: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 95%;
+  text-align: center;
+  text-decoration: none;
 }
 
 ul{
   list-style-type: none;
+  bottom: 0;
   margin: 0;
   padding: 0;
   background-color: rgb(17, 191, 17);
 }
 
 li{
-  float: left;
-}
-
-.a{
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  font-size:larger;
+  float:left;
+  text-shadow: 1px 1px 2px black;
+  margin-left: 12%;
 }
 
 li a:hover {
-  background-color: lightseagreen;
-} */
+  background-color: red;
+}
 
 .columnbox{
   background-color: green;
   text-align: center;
   display: flex;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .column1box{
@@ -69,16 +77,22 @@ li a:hover {
   width:50%;
   margin-top: 1%;
   margin-bottom: 1%;
-  margin-right: 1%;
+  margin-right: 0.5%;
   margin-left: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 3%;
+  padding-bottom: 5%;
 }
 
 .header2{
   font-family: papyrus;
+  text-shadow: 1px 1px 2px black;
 }
 
 .textcolumn1{
   font-family: Cantarell;
+  text-shadow: 1px 1px 2px pink;
 }
 
 .column2box{
@@ -88,55 +102,42 @@ li a:hover {
   margin-bottom: 1%;
   margin-right: 1%;
   margin-left: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 3%;
+  padding-bottom: 5%;
 }
 
 .header3{
   font-family: papyrus;
+  text-shadow: 1px 1px 2px black;
 }
 
 .imagesbox{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .firsttwo{
   float:left;
-  align-content: center;
+  margin-left: 18%;
 }
 
 .lasttwo{
   float:left;
-  align-content: center;
+  margin-left: 18%;
 }
 
 .images{
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
 }
 
-/* .column1{
-  float: left;
-  width: 50%;
-} */
-
-/* .column2{
-  float: right;
-  width: 50%;
-} */
-
-/* .row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
-
-/* .wrapper{
-  max-width: 1170px;
-} */
-
 .footer{
-  clear: both;
   background-color: green;
   font-family: Cantarell;
+  text-shadow: 1px 1px 2px pink;
   text-align: left;
   padding: 3px;
+  padding-bottom: 100%;
 }
