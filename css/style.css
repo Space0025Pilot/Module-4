@@ -1,6 +1,8 @@
 /* Author: Caitlyn Nelson
    Full Stack Web Dev 408 - Shane Panter- Fall 2024 */
 
+
+/* Header Div */
 .header{
   background-color: green;
   width: 100%;
@@ -33,6 +35,8 @@ body {
   margin-left: 25%;
 }
 
+/* Navigation Bar */
+
 .nav{
   background-color: rgb(17, 191, 17);
   margin-left:auto;
@@ -64,6 +68,8 @@ li a:hover {
   background-color: red;
 }
 
+/* Welcome Box */
+
 .columnbox{
   background-color: green;
   text-align: center;
@@ -94,6 +100,8 @@ li a:hover {
   font-family: Cantarell;
   text-shadow: 1px 1px 2px pink;
 }
+
+/* Photos Box */
 
 .column2box{
   background-color: rgb(7, 162, 31);
@@ -132,6 +140,8 @@ li a:hover {
   height: 150px;
   width: 150px;
 }
+
+/* Footer Box */
 
 .footer{
   background-color: green;
